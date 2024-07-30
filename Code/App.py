@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 # import cv2
 # import numpy as np
 # import argparse
@@ -26,9 +34,6 @@
 #     img = draw_bb(img ,boxes,confidences,class_ids,idxs,labels)
 
 #     return img , boxes,confidences,class_ids,idxs
-
-
-
 
 import cv2
 import argparse
@@ -76,3 +81,22 @@ def predict(net, layer_names, height, width, img, labels):
     img = draw_bb(img, boxes, confidences, class_ids, idxs, labels)
 
     return img, boxes, confidences, class_ids, idxs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# this file is note work than comment on this repo and i will arenge new and updeted code for you
